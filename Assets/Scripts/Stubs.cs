@@ -25,4 +25,5 @@ namespace FistVR
     public class SosigConfigTemplate { }
     public class SosigOutfitConfig { }
     public class SosigLink { }
+    public interface IFVRDamageable {}
 }
