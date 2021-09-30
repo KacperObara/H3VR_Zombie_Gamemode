@@ -19,9 +19,22 @@
       <projects_view />
     </option>
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/FVRLever.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/FVRObject.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/FVRQuickBeltSlot.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/FVRInteractiveObject.cs" root0="FORCE_HIGHLIGHTING" />
+  </component>
   <component name="IdeDocumentHistory">
     <changedPaths>
       <option value="$PROJECT_DIR$/Assets/Scripts/Extensions.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/FVRBodyPiece.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/FVRInteractiveObject.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/FVRObject.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/FVRPhysicalObject.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/FVRQuickBeltSlot.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/FVRLever.cs" />
+      <option value="$PROJECT_DIR$/Assets/Alloy/Scripts/AreaLight/Editor/AlloyLightEditor.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Stubs.cs" />
     </changedPaths>
   </component>
@@ -156,6 +169,10 @@
       <updated>1632920656806</updated>
       <workItem from="1632920659618" duration="12000" />
       <workItem from="1632920823455" duration="139000" />
+      <workItem from="1632982327872" duration="342000" />
+      <workItem from="1632982678953" duration="679000" />
+      <workItem from="1632991750887" duration="7240000" />
+      <workItem from="1633017515672" duration="4392000" />
     </task>
     <servers />
   </component>

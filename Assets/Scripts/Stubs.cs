@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -21,9 +22,19 @@ namespace FistVR
     public class Sosig { }
     public class SosigEnemyTemplate { }
     public class SosigWeapon { }
-    public class FVRObject { }
     public class SosigConfigTemplate { }
     public class SosigOutfitConfig { }
     public class SosigLink { }
-    public interface IFVRDamageable {}
+
+    public class GM
+    {
+        public static FVRPlayerBody CurrentPlayerBody { get; set; }
+    }
+    public class FVRPlayerBody : MonoBehaviour {}
+
+    public class Damage{}
+    public interface IFVRDamageable
+    {
+        void Damage(Damage dam);
+    }
 }

@@ -38,7 +38,7 @@ public class AlloyLightEditor : Editor {
 
 	public override void OnInspectorGUI() {
 		m_editor.OnInspectorGUI();
-		bool anyMissing = targets.Any(l => ((Light)l).GetComponent<Light>().type != LightType.Area 
+		bool anyMissing = targets.Any(l => ((Light)l).GetComponent<Light>().type != LightType.Area
                                         && ((Light)l).GetComponent<AlloyAreaLight>() == null);
 
 		if (anyMissing) {
@@ -56,7 +56,7 @@ public class AlloyLightEditor : Editor {
 
 	void RebindAreaLights() {
 		var lights = targets.Select(l => ((Light)l).GetComponent<AlloyAreaLight>()).Where(a => a != null);
-		
+
         foreach (AlloyAreaLight ar in lights) {
 			ar.UpdateBinding();
 		}
