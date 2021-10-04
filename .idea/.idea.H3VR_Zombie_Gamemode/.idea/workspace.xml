@@ -36,6 +36,7 @@
       <option value="$PROJECT_DIR$/Assets/Scripts/FVRLever.cs" />
       <option value="$PROJECT_DIR$/Assets/Alloy/Scripts/AreaLight/Editor/AlloyLightEditor.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Stubs.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/TrapLever.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1yoazUd6ML57qPBPthfiTGFBH6X" />
@@ -173,6 +174,7 @@
       <workItem from="1632982678953" duration="679000" />
       <workItem from="1632991750887" duration="7240000" />
       <workItem from="1633017515672" duration="4392000" />
+      <workItem from="1633069946420" duration="1243000" />
     </task>
     <servers />
   </component>
