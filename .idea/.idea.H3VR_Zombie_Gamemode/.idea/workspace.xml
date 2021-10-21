@@ -21,7 +21,7 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/FVRLever.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/AAAC32ED-86BC-4B6B-88EC-17A7D6386FFC/d9/0abb4354/WindowPlank.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/AAAC32ED-86BC-4B6B-88EC-17A7D6386FFC/d9/0abb4354/WindowPlank.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/FVRObject.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/FVRQuickBeltSlot.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/FVRInteractiveObject.cs" root0="FORCE_HIGHLIGHTING" />
@@ -181,6 +181,7 @@
       <workItem from="1633887326385" duration="124000" />
       <workItem from="1634320825968" duration="599000" />
       <workItem from="1634375313514" duration="866000" />
+      <workItem from="1634583671195" duration="46000" />
     </task>
     <servers />
   </component>
