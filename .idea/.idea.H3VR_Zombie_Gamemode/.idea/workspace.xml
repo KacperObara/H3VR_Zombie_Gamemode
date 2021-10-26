@@ -21,9 +21,11 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/FVRLever.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/AAAC32ED-86BC-4B6B-88EC-17A7D6386FFC/d9/0abb4354/WindowPlank.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/AAAC32ED-86BC-4B6B-88EC-17A7D6386FFC/d9/0abb4354/WindowPlank.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/FVRObject.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Enums.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/FVRQuickBeltSlot.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Assembly-CSharp/FistVR/AIManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/FVRInteractiveObject.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
@@ -31,13 +33,19 @@
       <option value="$PROJECT_DIR$/Assets/Scripts/Extensions.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/FVRBodyPiece.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/FVRInteractiveObject.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/FVRObject.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/FVRPhysicalObject.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/FVRQuickBeltSlot.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/FVRLever.cs" />
       <option value="$PROJECT_DIR$/Assets/Alloy/Scripts/AreaLight/Editor/AlloyLightEditor.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/Stubs.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/TrapLever.cs" />
+      <option value="$PROJECT_DIR$/../../../Programs/Steam/steamapps/common/H3VR/LegacyVirtualObjects/sosigzombies.manifest" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/FVRObject.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Assembly-CSharp/FistVR/SosigConfigTemplate.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Assembly-CSharp/FistVR/SosigEnemyTemplate.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Enums.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Assembly-CSharp/FistVR/AIManager.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Assembly-CSharp/FistVR/FVRObject.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Stubs.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1yoazUd6ML57qPBPthfiTGFBH6X" />
@@ -182,6 +190,11 @@
       <workItem from="1634320825968" duration="599000" />
       <workItem from="1634375313514" duration="866000" />
       <workItem from="1634583671195" duration="46000" />
+      <workItem from="1635058733455" duration="870000" />
+      <workItem from="1635060480460" duration="33000" />
+      <workItem from="1635060705786" duration="807000" />
+      <workItem from="1635069698799" duration="135000" />
+      <workItem from="1635096880621" duration="3415000" />
     </task>
     <servers />
   </component>
