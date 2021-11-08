@@ -22,17 +22,42 @@ namespace FistVR
     public class Sosig { }
     public class SosigWeapon { }
 
+    public class FVRSceneSettings
+    {
+        public delegate void SosigKill(Sosig s);
+
+        public event FVRSceneSettings.SosigKill SosigKillEvent;
+    }
+
     public class SosigLink { }
 
     public class GM
     {
         public static FVRPlayerBody CurrentPlayerBody { get; set; }
+        public static FVRSceneSettings CurrentSceneSettings { get; set; }
     }
-    public class FVRPlayerBody : MonoBehaviour {}
+    public class FVRPlayerBody : MonoBehaviour
+    {
+        public void SetHealthThreshold(float t) {}
+        public void ResetHealth() {}
+        public void HealPercent(float p) {}
+    }
 
     public class Damage{}
     public interface IFVRDamageable
     {
         void Damage(Damage dam);
     }
+}
+
+namespace On.FistVR
+{
+    //public static class Sosig {}
+    // public delegate void orig_ProcessDamage_Damage_SosigLink(FistVR.Sosig self, FistVR.Damage d, FistVR.SosigLink link);
+    // public delegate void hook_ProcessDamage_Damage_SosigLink(
+    //     Sosig.orig_ProcessDamage_Damage_SosigLink orig,
+    //     FistVR.Sosig self,
+    //     FistVR.Damage d,
+    //     FistVR.SosigLink link);
+    // public static event Sosig.hook_ProcessDamage_Damage_SosigLink ProcessDamage_Damage_SosigLink;
 }

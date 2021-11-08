@@ -46,6 +46,7 @@
       <option value="$PROJECT_DIR$/Assets/Scripts/Assembly-CSharp/FistVR/AIManager.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Assembly-CSharp/FistVR/FVRObject.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Stubs.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/MoveToPoint.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1yoazUd6ML57qPBPthfiTGFBH6X" />
@@ -195,6 +196,11 @@
       <workItem from="1635060705786" duration="807000" />
       <workItem from="1635069698799" duration="135000" />
       <workItem from="1635096880621" duration="3415000" />
+      <workItem from="1635793576860" duration="451000" />
+      <workItem from="1635794132976" duration="1204000" />
+      <workItem from="1635796628126" duration="1634000" />
+      <workItem from="1636149591611" duration="649000" />
+      <workItem from="1636301833082" duration="2000" />
     </task>
     <servers />
   </component>
