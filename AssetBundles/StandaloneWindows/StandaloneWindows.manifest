@@ -1,0 +1,7 @@
+ManifestFileVersion: 0
+CRC: 960179583
+AssetBundleManifest:
+  AssetBundleInfos:
+    Info_0:
+      Name: zosigs_weapons
+      Dependencies: {}

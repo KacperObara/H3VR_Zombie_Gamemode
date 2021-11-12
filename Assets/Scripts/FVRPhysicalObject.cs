@@ -680,6 +680,10 @@ namespace FistVR
     }
   }
 
+  public class ItemSpawnerID
+  {
+  }
+
   public enum HandlingReleaseIntoSlotType
   {
     None,
@@ -837,65 +841,7 @@ namespace FistVR
       }
     }
 
-    public class AudioImpactController : MonoBehaviour
-    {
-      [Header("Impact Stuff")]
-      public ImpactType ImpactType;
-      public bool SoundOnRB;
-      public bool SoundOnNonRb;
-      [NonSerialized]
-      public float m_tickTilCollisionSound;
-      public float DelayLengthMult;
-      public float DistLimit;
-      public FVRPooledAudioType PoolToUse;
-      public float HitThreshold_High;
-      public float HitThreshold_Medium;
-      public float HitThreshold_Ignore;
-      [NonSerialized]
-      public bool m_hasPlayedAudioThisFrame;
-      public List<Rigidbody> IgnoreRBs;
-      [Header("Sonic Event Stuff")]
-      public bool CausesSonicEventOnSoundPlay;
-      public float BaseLoudness;
-      public float LoudnessVelocityMult;
-      public float MaxLoudness;
-      [NonSerialized]
-      public int m_iFFForSonicEvent;
-      [Header("Alternate Type Stuff")]
-      public bool UsesAltTypes;
-      public List<AudioImpactController.AltImpactType> Alts;
 
-      public void SetIFF(int i)
-      {
-      }
-
-      public void Update()
-      {
-      }
-
-      public void OnCollisionEnter(Collision col)
-      {
-      }
-
-      public void SetCollisionsTickDown(float f)
-      {
-      }
-
-      public void SetCollisionsTickDownMax(float f)
-      {
-      }
-
-      public void ProcessCollision(Collision col)
-      {
-      }
-
-      [Serializable]
-      public class AltImpactType
-      {
-        public ImpactType Type;
-        public List<Collider> Cols;
-      }
-    }
     public enum ImpactType
   {
     MagSmallMetal = 0,
@@ -1004,8 +950,4 @@ namespace FistVR
     {
     }
 
-    public class ItemSpawnerID : ScriptableObject
-    {
-
-    }
 }

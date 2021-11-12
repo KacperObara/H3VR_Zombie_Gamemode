@@ -4,8 +4,10 @@ using UnityEngine;
 namespace FistVR
 {
     [CreateAssetMenu(fileName = "New Definition", menuName = "FVRObjectID/FVRObjectID", order = 0)]
+
     public class FVRObject : AnvilAsset
     {
+
         public enum ObjectCategory
         {
             Uncategorized = 0,
@@ -286,9 +288,7 @@ namespace FistVR
         public OTagMeleeHandedness TagMeleeHandedness;
         public OTagPowerupType TagPowerupType;
         public OTagThrownType TagThrownType;
-
         public OTagThrownDamageType TagThrownDamageType;
-
         public FireArmMagazineType MagazineType;
         public List<FVRObject> CompatibleMagazines;
         public List<FVRObject> CompatibleClips;

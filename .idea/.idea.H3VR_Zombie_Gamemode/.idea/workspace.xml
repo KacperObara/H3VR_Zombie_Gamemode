@@ -33,7 +33,6 @@
       <option value="$PROJECT_DIR$/Assets/Scripts/Extensions.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/FVRBodyPiece.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/FVRInteractiveObject.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/FVRPhysicalObject.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/FVRQuickBeltSlot.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/FVRLever.cs" />
       <option value="$PROJECT_DIR$/Assets/Alloy/Scripts/AreaLight/Editor/AlloyLightEditor.cs" />
@@ -44,9 +43,12 @@
       <option value="$PROJECT_DIR$/Assets/Scripts/Assembly-CSharp/FistVR/SosigEnemyTemplate.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Enums.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Assembly-CSharp/FistVR/AIManager.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/Assembly-CSharp/FistVR/FVRObject.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/Stubs.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/MoveToPoint.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Stubs.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Assembly-CSharp/FistVR/FVRObject.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Assembly-CSharp/FistVR/SosigWeapon.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Assembly-CSharp/FistVR/AIEntity.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/FVRPhysicalObject.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1yoazUd6ML57qPBPthfiTGFBH6X" />
@@ -201,6 +203,7 @@
       <workItem from="1635796628126" duration="1634000" />
       <workItem from="1636149591611" duration="649000" />
       <workItem from="1636301833082" duration="2000" />
+      <workItem from="1636563039529" duration="877000" />
     </task>
     <servers />
   </component>
